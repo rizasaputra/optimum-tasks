@@ -40,7 +40,7 @@ module.exports = {
           }
         })
         .on('end', () => {
-          console.log('done')
+          console.log('done parsing input')
           resolve({
             tasks,
             totalScore

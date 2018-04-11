@@ -9,7 +9,6 @@ module.exports = {
         const sortedTasks = task.dateSort(tasks)
         const result = task.optimumTasksSubset(sortedTasks, totalScore)
 
-        // console.log(result)
         return result
       })
       .catch(err => console.error(err))

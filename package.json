@@ -5,6 +5,7 @@
     "fetch optimum tasks subset based on weight from list of tasks",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "nyc mocha --recursive --timeout=5000"
   },
   "repository": {
