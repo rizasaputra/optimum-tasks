@@ -1,5 +1,5 @@
 const assert = require('chai').assert
-const parser = require('../parser')
+const parser = require('../../parser')
 
 describe('Parse CSV', () => {
   it('skip invalid row', async () => {

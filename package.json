@@ -1,10 +1,11 @@
 {
   "name": "optimum-tasks",
   "version": "0.0.1",
-  "description": "fetch optimum tasks subset based on weight from list of tasks",
-  "main": "app.js",
+  "description":
+    "fetch optimum tasks subset based on weight from list of tasks",
+  "main": "index.js",
   "scripts": {
-    "test": "nyc mocha --timeout=5000"
+    "test": "nyc mocha --recursive --timeout=5000"
   },
   "repository": {
     "type": "git",

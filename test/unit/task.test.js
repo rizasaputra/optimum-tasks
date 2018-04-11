@@ -1,6 +1,6 @@
 const moment = require('moment')
 const assert = require('chai').assert
-const task = require('../task')
+const task = require('../../task')
 
 describe('Modify task', () => {
   describe('Sort tasks by start date', () => {
