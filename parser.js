@@ -25,7 +25,7 @@ module.exports = {
             if (
               startTime.isValid() &&
               endTime.isValid() &&
-              startTime <= endTime
+              startTime < endTime
             ) {
               const score = parseInt(data[3], 10)
               totalScore += score
