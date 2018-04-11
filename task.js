@@ -34,7 +34,10 @@ module.exports = {
 
       const baseTaskCompatibles = tasks.reduce(
         (result, currentTask, idx, arr) => {
-          const previousTask = idx === 0 ? baseTask : arr[idx - 1]
+          const previousTask =
+            idx === 0
+              ? baseTask
+              : result.nonOverlapTasks[result.nonOverlapTasks.length - 1]
 
           // no overlap
           if (previousTask.endTime < currentTask.startTime) {
